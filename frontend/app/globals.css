@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary: #a31b4b;
+    --primary-hover: #8b1640;
+    --secondary: #4b4ba3;
+    --secondary-hover: #3f3f8b;
+    --dark: #4b4b4b;
+    --background: #f5f5f5;
+    --foreground: #171717;
+    --card-bg: #ffffff;
+}
+
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+/* Add smooth transitions for microphone button */
+.mic-transition {
+    transition: all 0.2s ease-in-out;
+}
